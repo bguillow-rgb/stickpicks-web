@@ -16,18 +16,47 @@
 </head>
 <body>
 <div class="container container--wide">
-  <p class="nav"><a href="features.html">Features</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a></p>
+  <header class="site-header">
+    <a href="index.html" class="site-wordmark">Stick Picks</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="features.html">Features</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+  <div class="band-rule" aria-hidden="true"></div>
 
   <section class="hero">
-    <img src="icon.png" alt="Stick Picks app icon" class="hero-icon" />
-    <p class="brand">Stick Picks</p>
-    <h1>The Cigar Collector's Journal</h1>
-    <p class="hero-tagline">Catalog your humidor. Track every smoke. Find your next favorite stick.</p>
+    <div class="hero-copy">
+      <p class="eyebrow">Cigar humidor &middot; iOS</p>
+      <h1>The collector's <em>humidor.</em></h1>
+      <p class="hero-tagline">Catalog every stick, snap the band to identify what you own, track your collection's value, and journal every smoke in one private reference.</p>
 
-    <p class="badge">Coming soon to the App Store</p>
-    <p class="hero-trust">For adults 21+ &middot; No ads &middot; Your collection stays yours</p>
+      <p class="badge">Coming soon to the App Store</p>
+      <p class="hero-trust">For adults 21+ &middot; No ads &middot; Your collection stays yours</p>
+    </div>
 
-    <img src="assets/screenshots/02-home.png" alt="Stick Picks home screen showing Find Your Stick, Advanced Quiz, and Scan a Stick options" class="hero-shot" />
+    <aside class="cigarband" aria-label="Example cigar in your humidor">
+      <p class="cigarband-flourish" aria-hidden="true">&#10086;</p>
+      <p class="cigarband-house">Tabacalera &middot; Nicaragua</p>
+      <p class="cigarband-name">Monta&ntilde;a Real</p>
+      <p class="cigarband-vitola">Toro &middot; 6 &times; 52</p>
+
+      <dl class="cigarband-stats">
+        <div>
+          <dt>Wrapper</dt>
+          <dd>Habano Maduro</dd>
+        </div>
+        <div>
+          <dt>Strength</dt>
+          <dd>Full</dd>
+        </div>
+      </dl>
+
+      <p class="cigarband-foot"><span>Rested</span><strong>64 days</strong></p>
+    </aside>
   </section>
 
   <section class="features">
@@ -35,29 +64,31 @@
 
     <div class="feature-grid">
       <div class="feature">
-        <div class="feature-icon">&#9783;</div>
+        <div class="feature-icon">No. 01 &middot; Humidor</div>
         <h3>Your humidor, organized</h3>
         <p>Track every stick by brand, vitola, wrapper, and rest time. Snap the band — we'll do the rest.</p>
       </div>
 
       <div class="feature">
-        <div class="feature-icon">&#9998;</div>
+        <div class="feature-icon">No. 02 &middot; Journal</div>
         <h3>A journal that remembers</h3>
         <p>Log each smoke with notes, ratings, pairings, and the occasion. Your tasting history, searchable.</p>
       </div>
 
       <div class="feature">
-        <div class="feature-icon">&#36;</div>
+        <div class="feature-icon">No. 03 &middot; Value</div>
         <h3>Collection value at a glance</h3>
         <p>MSRP-aware pricing keeps a running total of what's resting in your humidor.</p>
       </div>
 
       <div class="feature">
-        <div class="feature-icon">&#9788;</div>
+        <div class="feature-icon">No. 04 &middot; Palate</div>
         <h3>Discover what you'll love</h3>
         <p>A short profile quiz finds cigars matched to your palate &mdash; from a curated catalog of thousands.</p>
       </div>
     </div>
+
+    <img src="assets/screenshots/02-home.png" alt="Stick Picks home screen showing Find Your Stick, Advanced Quiz, and Scan a Stick options" class="hero-shot" />
   </section>
 
   <section class="cta">
